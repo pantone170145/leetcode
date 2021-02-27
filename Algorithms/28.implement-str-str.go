@@ -10,16 +10,6 @@ func strStr(haystack string, needle string) int {
 		return 0
 	}
 	return strings.Index(haystack, needle)
-
-	// // haystackの長さ
-	// hl := len(haystack)
-	// nl := len(needle)
-
-	// for i := 0; i < (hl - nl + 1) i++ {
-
-	// }
-
-	// return -1
 }
 
 // @lc code=end
